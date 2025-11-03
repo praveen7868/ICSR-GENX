@@ -59,10 +59,6 @@ This project is ideal for:
 
 MIT – Free to use, adapt, and build upon.
 
-## 📎 License
-
-MIT – Free to use, adapt, and build upon.
-
 ---
 
 ## 📂 Data Sources
