@@ -58,3 +58,35 @@ This project is ideal for:
 ## 📎 License
 
 MIT – Free to use, adapt, and build upon.
+
+## 📎 License
+
+MIT – Free to use, adapt, and build upon.
+
+---
+
+## 📂 Data Sources
+
+Data used in this project was derived from publicly accessible pharmacovigilance databases, including:
+
+- [WHO VigiAccess](https://vigiaccess.org/)
+- [FDA FAERS](https://www.fda.gov/drugs/questions-and-answers-fdas-adverse-event-reporting-system-faers/fda-adverse-event-reporting-system-faers)
+- [EU ADR Reports](https://www.adrreports.eu/)
+- [OpenVigil](https://openvigil.sourceforge.net/)
+- [Canada Vigilance](https://health-products.canada.ca/adverse-reaction-monitoring/index-eng.jsp)
+- [Japan PMDA](https://www.pmda.go.jp/english/safety/info-services/adr-info/0001.html)
+- [Australia DAEN](https://www.tga.gov.au/database-adverse-event-notifications-daen)
+- [SIDER](http://sideeffects.embl.de/)
+- [OpenFDA API](https://open.fda.gov/apis/)
+
+> ⚠️ *Note: This project does not extract or process real patient data. All datasets used are simulated and anonymized for educational and demonstration purposes only. Data structures are inspired by publicly available pharmacovigilance portals.*
+
+---
+
+## 📚 References
+
+- Accenture. (2023). *SynOps for Pharmacovigilance: Transforming Drug Safety with GenAI*. [Accenture PV SynOps Overview](https://www.accenture.com/us-en/services/life-sciences/synops-pharmacovigilance)
+- U.S. FDA. *Postmarketing Safety Reporting Requirements for Human Drug and Biological Products*. [FDA Guidance](https://www.fda.gov/media/78504/download)
+- WHO. (2002). *Safety Monitoring of Medicinal Products: Guidelines for Setting Up and Running a Pharmacovigilance Centre*. [WHO PV Manual](https://apps.who.int/iris/handle/10665/42493)
+- Naranjo CA et al. (1981). *A method for estimating the probability of adverse drug reactions*. Clin Pharmacol Ther. [PubMed Link](https://pubmed.ncbi.nlm.nih.gov/7249508/)
+- EMA. *EudraVigilance and ICSR Reporting Requirements*. [EMA Guidance](https://www.ema.europa.eu/en/human-regulatory/research-development/pharmacovigilance/eudravigilance)
