@@ -49,7 +49,7 @@ ICSR-GENX is a simulation project that automates key pharmacovigilance workflows
 Accenture’s SynOps platform reduced PV report timelines from 50+ days to under a minute using GenAI. ICSR-GENX shows how similar intelligence can be simulated independently — without paid APIs or cloud infrastructure.
 
 This project is ideal for:
-- Clinical data management and PV job seekers
+- Pharmacovigilance and Clinical data management role job seekers
 - Recruiters evaluating GenAI readiness
 - Academic publishing and portfolio building
 
