@@ -98,15 +98,16 @@ Each narrative is automatically constructed using patient demographics, drug-eve
 
 All project files are uploaded individually for simplicity and compatibility with GitHub’s web interface:
 
-### 🔹 File Usage
+## 📂 File Usage
 
-- **raw_adr_data.csv**: Contains structured ICSR input data
-- **meddra_dict.csv**: Used for MedDRA term mapping
-- **narrative_cases.csv**: Final output with GenAI-style narratives
-- **ae_detector.py**: Python script for serious AE detection
-- **meddra_coder.py**: Python script for MedDRA coding
-- **narrative_gen.py**: Python script for narrative generation
-- **README.md**: Main documentation file
+- **raw_adr_data.csv**: Contains structured ICSR input data including patient demographics, drug details, and adverse events.
+- **meddra_dict.csv**: Used for MedDRA term mapping to standardize event terminology.
+- **flagged_cases.csv**: Output file containing only serious ADR cases flagged by `ae_detector.py`.
+- **narrative_cases.csv**: Final output file containing GenAI-style case narratives suitable for regulatory review.
+- **ae_detector.py**: Python script that flags serious adverse events based on predefined criteria.
+- **meddra_coder.py**: Python script that maps reported events to MedDRA dictionary terms.
+- **narrative_gen.py**: Python script that generates readable case narratives from structured input.
+- **README.md**: Main documentation file describing the project, structure, and usage.
 
 ---
 
