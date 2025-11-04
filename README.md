@@ -76,6 +76,15 @@ Each narrative is automatically constructed using patient demographics, drug-eve
 
 ## 📁 Folder Structure
 
+The project is organized into modular folders for clarity and scalability:
+
+### 🔹 Folder Usage
+
+- **data/**: Place your input files here (e.g., ADR case data, MedDRA dictionary).
+- **outputs/**: All processed files will be saved here after running the modules.
+- **modules/**: Contains Python scripts for each step in the ICSR workflow.
+- **README.md**: Main documentation file for GitHub.
+
 ---
 
 ## 📣 Why This Project?
@@ -94,6 +103,24 @@ This project is ideal for:
 MIT – Free to use, adapt, and build upon.
 
 ---
+
+## 📌 Summary and Conclusion
+
+**ICSR-GENX** is a modular simulation project that replicates key pharmacovigilance workflows using Python and GenAI-style logic. It demonstrates how early-career professionals can build recruiter-ready, enterprise-inspired tools using cost-free resources.
+
+### ✅ Achievements:
+- Automated serious adverse event detection using rule-based logic
+- Implemented MedDRA coding via dictionary mapping
+- Generated GenAI-style narratives from structured case data
+- Produced final case summary reports in CSV format
+
+### 🎯 Impact:
+This project showcases practical PV skills, workflow design, and documentation standards aligned with industry expectations. It serves as a benchmarkable portfolio artifact for roles in Clinical Data Management, Pharmacovigilance, and regulatory operations.
+
+**Next Steps**:  
+Future enhancements may include SLA tracking, causality scoring, and audit logging to further simulate enterprise-grade ICSR platforms.
+
+----
 
 ## 📂 Data Sources
 
@@ -118,5 +145,4 @@ Data used in this project was derived from publicly accessible pharmacovigilance
 - Accenture. (2023). *SynOps for Pharmacovigilance: Transforming Drug Safety with GenAI*. [Accenture PV SynOps Overview](https://www.accenture.com/us-en/services/life-sciences/synops-pharmacovigilance)
 - U.S. FDA. *Postmarketing Safety Reporting Requirements for Human Drug and Biological Products*. [FDA Guidance](https://www.fda.gov/media/78504/download)
 - WHO. (2002). *Safety Monitoring of Medicinal Products: Guidelines for Setting Up and Running a Pharmacovigilance Centre*. [WHO PV Manual](https://apps.who.int/iris/handle/10665/42493)
-- Naranjo CA et al. (1981). *A method for estimating the probability of adverse drug reactions*. Clin Pharmacol Ther. [PubMed Link](https://pubmed.ncbi.nlm.nih.gov/7249508/)
 - EMA. *EudraVigilance and ICSR Reporting Requirements*. [EMA Guidance](https://www.ema.europa.eu/en/human-regulatory/research-development/pharmacovigilance/eudravigilance)
