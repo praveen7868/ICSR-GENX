@@ -1,5 +1,5 @@
 **ICSR-GENX: GenAI-Powered Drug Safety Intelligence and ICSR Automation**
-
+---
 **ICSR-GENX** is a simulation project that automates key pharmacovigilance workflows using GenAI-style logic and rule-based Python modules. Inspired by Accenture’s SynOps platform, it showcases how independent innovators can replicate enterprise-grade ICSR processing — including adverse event detection, MedDRA coding, and narrative generation — using cost-free tools.
 
 ---
