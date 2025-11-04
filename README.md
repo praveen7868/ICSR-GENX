@@ -16,14 +16,12 @@
 
 ---
 
-### 🔹 GENX: Generative Extractor for Narratives with eXplainability
+## 🔹 GENX: Generative Extractor for Narratives with eXplainability
 
-| Component     | Meaning |
-|---------------|---------|
-| **Generative** | Uses GenAI-style logic to construct readable case narratives from structured CSV input |
-| **Extractor**  | Pulls key fields (e.g., age, gender, drug, event, seriousness, outcome) from raw data |
-| **Narratives** | Produces regulatory-style summaries suitable for PV workflows and audit trails |
-| **X**          | Represents **eXplainability**, **innovation**, and **uniqueness** — the "X-factor" that makes this project stand out |
+- **Generative**: Uses GenAI-style logic to construct readable case narratives from structured CSV input.
+- **Extractor**: Pulls key fields like age, gender, drug, event, seriousness, and outcome from raw data.
+- **Narratives**: Produces regulatory-style summaries suitable for pharmacovigilance workflows and audit trails.
+- **X**: Stands for eXplainability, innovation, and uniqueness.
 
 ---
 
@@ -109,17 +107,6 @@ All project files are uploaded individually for simplicity and compatibility wit
 - **meddra_coder.py**: Python script for MedDRA coding
 - **narrative_gen.py**: Python script for narrative generation
 - **README.md**: Main documentation file
-
----
-
-## 📣 Why This Project?
-
-Accenture’s SynOps platform reduced PV report timelines from 50+ days to under a minute using GenAI. ICSR-GENX shows how similar intelligence can be simulated independently — without paid APIs or cloud infrastructure.
-
-This project is ideal for:
-- Pharmacovigilance and Clinical data management role job seekers
-- Recruiters evaluating GenAI readiness
-- Academic publishing and portfolio building
 
 ---
 
