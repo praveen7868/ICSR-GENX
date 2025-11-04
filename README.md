@@ -74,16 +74,19 @@ Each narrative is automatically constructed using patient demographics, drug-eve
 
 ---
 
-## 📁 Folder Structure
+## 📁 File Structure
 
-The project is organized into modular folders for clarity and scalability:
+All project files are uploaded individually for simplicity and compatibility with GitHub’s web interface:
 
-### 🔹 Folder Usage
+### 🔹 File Usage
 
-- **data/**: Place your input files here (e.g., ADR case data, MedDRA dictionary).
-- **outputs/**: All processed files will be saved here after running the modules.
-- **modules/**: Contains Python scripts for each step in the ICSR workflow.
-- **README.md**: Main documentation file for GitHub.
+- **raw_adr_data.csv**: Contains structured ICSR input data
+- **meddra_dict.csv**: Used for MedDRA term mapping
+- **narrative_cases.csv**: Final output with GenAI-style narratives
+- **ae_detector.py**: Python script for serious AE detection
+- **meddra_coder.py**: Python script for MedDRA coding
+- **narrative_gen.py**: Python script for narrative generation
+- **README.md**: Main documentation file
 
 ---
 
