@@ -40,7 +40,7 @@ This project simulates key components of Individual Case Safety Report (ICSR) pr
 
 | Step               | Module             | Description |
 |--------------------|--------------------|-------------|
-| Case Receipt        | `raw_data.csv`      | Structured CSV input containing ADR case data |
+| Case Receipt        | `raw_adr_data.csv`      | Structured CSV input containing ADR case data |
 | Case Triage         | `ae_detector.py`    | Flags serious cases based on seriousness criteria |
 | MedDRA Coding       | `meddra_coder.py`   | Maps event terms to MedDRA Preferred Term and SOC |
 | Narrative Generation| `narrative_gen.py`  | Generates GenAI-style summaries from structured fields |
