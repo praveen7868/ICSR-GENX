@@ -32,11 +32,13 @@ ICSR-GENX is a simulation project that automates key pharmacovigilance workflows
 
 ## 🛠️ Tech Stack
 
-- Python (Jupyter Notebook or CLI)
-- Pandas, Matplotlib
-- Optional: Hugging Face Transformers, spaCy
-- CSV/JSON for input/output
-- No paid APIs or cloud dependencies
+| Tool / Library     | Purpose                                                  |
+|--------------------|----------------------------------------------------------|
+| **Python**         | Core scripting language for all modules                  |
+| **Pandas**         | Data manipulation, filtering, and CSV processing         |
+| **CSV files**      | Input/output format for ICSR case data and MedDRA mapping|
+| **OS module**      | Handles file paths and output directory creation         |
+| **Google Colab / CLI** | Execution environment for running and testing scripts |
 
 ---
 
