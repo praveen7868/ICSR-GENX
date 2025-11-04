@@ -4,9 +4,26 @@
 
 ---
 
-## 🚀 Introduction
+## 🔍 What Does ICSR-GENX Mean?
 
-**ICSR-GENX** (Individual Case Safety Report – Generative Extractor for Narratives) is a modular, Python-based simulation pipeline designed to replicate key pharmacovigilance workflows. It transforms structured adverse event data into GenAI-style case narratives, mimicking real-world ICSR processing in a regulatory setting.
+**ICSR-GENX** stands for:
+
+### 🔹 ICSR: Individual Case Safety Report
+
+- A globally recognized format used in **pharmacovigilance** to report adverse drug reactions (ADRs)
+- Includes patient demographics, suspect drugs, adverse events, seriousness, outcome, and causality
+- Forms the backbone of regulatory safety monitoring across clinical trials and post-marketing surveillance
+
+---
+
+### 🔹 GENX: Generative Extractor for Narratives with eXplainability
+
+| Component     | Meaning |
+|---------------|---------|
+| **Generative** | Uses GenAI-style logic to construct readable case narratives from structured CSV input |
+| **Extractor**  | Pulls key fields (e.g., age, gender, drug, event, seriousness, outcome) from raw data |
+| **Narratives** | Produces regulatory-style summaries suitable for PV workflows and audit trails |
+| **X**          | Represents **eXplainability**, **innovation**, and **uniqueness** — the "X-factor" that makes this project stand out |
 
 ---
 
