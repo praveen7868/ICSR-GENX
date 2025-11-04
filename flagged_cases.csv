@@ -1,0 +1,11 @@
+Case_ID,Receipt_Date,Drug_Name,Event Term,Seriousness,Outcome,Reporter_Type,Patient_Age,Gender,Country
+ICSR001,01-10-2025,Metformin,Hypoglycemia,Serious,Recovered,Physician,65,Male,India
+ICSR002,03-10-2025,Ibuprofen,GI Bleeding,Serious,Fatal,Pharmacist,72,Male,USA
+ICSR004,07-10-2025,Atorvastatin,Myopathy,Serious,Not Recovered,Physician,58,Male,Germany
+ICSR005,09-10-2025,Paracetamol,Liver Injury,Serious,Unknown,Nurse,45,Female,Australia
+ICSR007,12-10-2025,Ciprofloxacin,Tendon Rupture,Serious,Recovering,Physician,50,Female,Japan
+ICSR008,14-10-2025,Sertraline,Suicidal Ideation,Serious,Not Recovered,Psychologist,28,Female,India
+ICSR009,15-10-2025,Insulin,Hypoglycemia,Serious,Recovered,Physician,70,Male,USA
+ICSR010,16-10-2025,Warfarin,Hemorrhage,Serious,Fatal,Pharmacist,80,Male,France
+ICSR013,19-10-2025,Clopidogrel,Bleeding,Serious,Recovering,Physician,68,Female,Germany
+ICSR015,21-10-2025,Tramadol,Seizure,Serious,Not Recovered,Physician,47,Female,Australia
