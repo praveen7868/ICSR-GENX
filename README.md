@@ -5,28 +5,46 @@ ICSR-GENX is a simulation project that automates key pharmacovigilance workflows
 
 ---
 
-## 🔍 Project Scope
+## 🎯 Project Scope
 
-- ✅ Case validation and triage
-- ✅ Serious adverse event detection
-- ✅ SLA compliance tracking (7-day/15-day deadlines)
-- ✅ Causality assessment (Naranjo scale)
-- ✅ GenAI-powered narrative generation
-- ✅ Audit trail logging for inspection readiness
+This project simulates key components of Individual Case Safety Report (ICSR) processing using rule-based logic and GenAI-style automation. The following modules have been implemented:
+
+- ✅ **Case validation and triage**  
+  Filters incoming ADR cases and flags serious ones based on predefined criteria.
+
+- ✅ **Serious adverse event detection**  
+  Identifies and isolates cases marked as serious for priority handling.
+
+- ✅ **GenAI-based narrative generation**  
+  Automatically generates human-like case summaries using structured data fields.
+
+- ✅ **Final case summary report generation**  
+  Compiles processed cases into a structured output file for review or downstream use.
 
 ---
 
-## 🔄 ICSR Workflow Simulated
+## 🔄 ICSR Workflow Overview
 
-1. **Case Receipt** – Intake of ADR data from structured sources  
+### 🔹 Real-World ICSR Process (Simplified)
+
+1. **Case Receipt** – Intake of ADR data from structured or unstructured sources  
 2. **Case Validation** – Check for minimum criteria (patient, reporter, drug, event)  
-3. **Duplicate Check** – Simulated duplicate detection logic  
-4. **Case Triage** – Classify as serious or non-serious  
-5. **SLA Compliance** – Track regulatory timelines and flag overdue cases  
-6. **Causality Assessment** – Score using Naranjo scale logic  
-7. **Narrative Generation** – Auto-generate ICSR text using GenAI or templates  
-8. **Audit Logging** – Record actions for inspection simulation  
-9. **Final Output** – Summary report per case
+3. **Case Triage** – Classify cases as serious or non-serious  
+4. **MedDRA Coding** – Standardize event terms using MedDRA dictionary  
+5. **Narrative Generation** – Draft case summaries for regulatory review  
+6. **Final Output** – Export processed cases for downstream use or reporting
+
+---
+
+### 🔹 What ICSR-GENX Implements
+
+| Step               | Module             | Description |
+|--------------------|--------------------|-------------|
+| Case Receipt        | `raw_data.csv`      | Structured CSV input containing ADR case data |
+| Case Triage         | `ae_detector.py`    | Flags serious cases based on seriousness criteria |
+| MedDRA Coding       | `meddra_coder.py`   | Maps event terms to MedDRA Preferred Term and SOC |
+| Narrative Generation| `narrative_gen.py`  | Generates GenAI-style summaries from structured fields |
+| Final Output        | `narrative_cases.csv` | Consolidated output with enriched case data |
 
 ---
 
